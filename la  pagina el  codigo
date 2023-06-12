@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/styles.css" />
+      <link rel="stylesheet" href="css/estilo1.css" />
+      <title>Netflix page</title>
+
+   <style>
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+   }
+
+   .banner {
+      background-image: url("../img/tms.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      height: 100vh;
+   }
+   .logos{
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 100px;
+      z-index: 100;
+   }
+   .logos a img{
+      width: 100;
+   }
+   .navegacion{
+      display: flex;
+   }
+   .navegacion li{
+      list-style: none;
+      margin: 0 10px;
+   }
+   .navegacion li a{
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: 1px;
+   }
+   .navegacion li:hover a{
+      color: #de0611;
+   }
+   .contenido{
+      padding: 30px 100px;
+   }
+   .contenido h4{
+      color: rgba(255, 255, 255, 0.5);
+      font-weight: 500;
+   }
+   .borderred{
+      color: #fff;
+      border: 1px solid hsla(0, 100%, 50%, 0.675);
+      padding: 1px;
+      border-radius: 1px;
+      background: #de0611;
+   }
+   .contenido{
+      position: relative;
+      z-index: 1;
+      max-width: 830px;
+   }
+   .contenido p{
+      color: #fefefe;
+   }
+     </style>
+ 
+   </head>
+<body background="tms.jpg">
+   <font align="left"></font>
+   <img src="logonetflix.png" width="500" height="300">
+   </font>
+   <br>
+   <center>
+   <img src="logoletras.png" width="300" height="350">
+   </center>
+   
+   <div class="logos">
+      <a class="logoN" href="#"><img src="img/logo.png" alt=""></a>
+      <ul class="navegacion">
+         <li><a href="">Home</a></li>
+         <li><a href="">TV Shows</a></li>
+         <li><a href="">Movie</a></li>
+         <li><a href="">Latest</a></li>
+         <li><a href="">My List</a></li>
+      </ul>
+   </div>
+   <div class="contenido">
+      <img src="img/logoletras.png" alt="">
+      <h4>
+         <span>2022</span>
+         <span>|</span>
+         <span class="borderred">16+</span>
+         <span>6 temporadas</span>
+      </h4>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quod reprehenderit sequi totam suscipit laboriosam, modi consequatur nobis delectus ad inventore, architecto adipisci neque rem tempora eum natus debitis vel?</p>
+      
+      <div class="buttons">
+         <a href="">PLAY</a>
+         <a href="">MY LIST</a>
+      </div>
+   </div>
+   
+
+  
+</main>
+
+      
+         <!--Recomendaciones:
+        *Trabajar solo dentro de esta etiqueta main
+        *Utilizar flexbox para todas los requerimientos 
+        -->
+      </main>
+   </body>
+</html>
