@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix FABRICIO EMANUEL   MARTINEZ CONDORENA </title>
+
+   <style>
+      *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
+      body{
+         background-image: url(tms.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         height: 100vh;
+      }
+      .logo{
+         background-image: url(logonetflix.png);
+      }
+      .contenedor{
+         width: 85%;
+         margin: auto;
+      }
+      header{
+         padding: 30px 0;  
+      }
+      header .contenedor{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+      }
+      /*header .logo{
+      font-family: 'Bebas Neue', cursive;
+      font-weight: normal;
+      color:red;
+      font-size: 40px;
+      }*/
+
+      header nav a{
+         color: #aaa;
+         text-decoration: none;
+         margin-right: 20px;
+         font-family:cursive;
+      }
+
+
+      header nav a:hover,
+      header nav a.activo {
+         color:#fff
+      }
+
+      .pelicula-principal .fecha{
+         word-spacing: 0.5em;
+      
+         font-weight: normal;
+         font-size: 1.3em;
+         line-height: 1.75em;
+         max-width: 50%;
+         margin-bottom: 1.25em;
+         color: #fff;
+      }
+
+      .pelicula-principal .descripcion{
+         margin-top: 1em;
+         font-weight: normal;
+         font-size: 1em;
+         line-height: 1.75em;
+         max-width: 50%;
+         margin-bottom: 1.25em;
+         color: #fff;
+      }
+      .pelicula-principal .boton{
+         background: rgba(0,0,0, 0.5);
+         border: none;
+         border-radius: 0.31em;
+         padding: 0.93em 1.87em;
+         color:#fff;
+         cursor: pointer;
+         transition: .3s ease all;
+         font-size: 0.5em;
+         background-color: red;
+      }
+
+      .pelicula-principal .boton2{
+         background: rgba(0,0,0, 0.5);
+         border: none;
+         border-radius: 0.31em;
+         padding: 0.93em 1.87em;
+         color:#fff;
+         cursor: pointer;
+         transition: .3s ease all;
+         font-size: 0.9em;
+         background-color: red;
+      }
+
+      .pelicula-principal .boton3{
+         background: rgba(0,0,0, 0.5);
+         border: none;
+         border-radius: 0.31em;
+         padding: 0.93em 1.87em;
+         color:#fff;
+         cursor: pointer;
+         transition: .3s ease all;
+         font-size: 0.9em;
+      }
+</style>
+</head>
+<body>
+     <header>
+        
+        <div class="contenedor">
+            <a href="#" class="logo"><img src="logo.png" ></a>
+            <nav>
+                <a href="#" class="activo">Inicio</a>
+                <a href="#">Home</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Movies</a>
+                <a href="#">Latest</a>
+                <a href="#">My list</a>
+            </nav>
+        </div>
+     </header>
+     <main>
+        <div class="pelicula-principal">
+            <div class="contenedor">
+                <a href="#" class="logo2"><img src="logoletras.png" ></a>
+                <p class="fecha">2022 | <button role="button" class="boton">+16</button> 6 Temporadas </p>
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nostrum atque obcaecati porro officia ducimus delectus aspernatur ut iste assumenda exercitationem temporibus, alias commodi debitis suscipit animi. Quidem, aut voluptate?
+                </p>
+                <button role="button" class="boton2">PLAY</button>
+                <button role="button" class="boton3"></i>MY LIST</button>
+
+            </div>
+        </div>
+     </main>
+     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
